@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pts="http://schemas.android.com/apk/res/com.hege.pts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_one"/>
+   
+    <com.hege.pts.view.AdvertScrollView
+       android:id="@+id/advertview"
+       android:layout_width="match_parent"
+       android:layout_height="200dp" />
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/about_logo"/>
+    <com.hege.pts.view.SlidScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+           <com.hege.pts.view.CircularView
+               android:id="@+id/circular_1"
+               android:layout_marginLeft="10dp"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               pts:color="#96a082"
+               pts:text="About Us"
+               />
+           <com.hege.pts.view.CircularView
+               android:id="@+id/circular_2"
+               android:layout_marginLeft="15dp"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               pts:color="#727e74"
+               pts:text="Enterprise Honors"
+               />
+           <com.hege.pts.view.CircularView
+               android:id="@+id/circular_3"
+               android:layout_marginLeft="15dp"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               pts:color="#ac9f96"
+               pts:text="Enterprise Culture"
+               />
+           <com.hege.pts.view.CircularView
+               android:id="@+id/circular_4"
+               android:layout_marginLeft="15dp"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               pts:color="#828ca0"
+               pts:text="Development Events"
+               />
+           <com.hege.pts.view.CircularView
+               android:id="@+id/circular_5"
+               android:layout_marginLeft="15dp"
+               android:layout_marginRight="10dp"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               pts:color="#96a082"
+               pts:text="Equipment discription"
+               />
+        </LinearLayout>
+    </com.hege.pts.view.SlidScrollView>
+    
+    <com.hege.pts.view.ProgressView
+        android:id="@+id/progressView"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/progress_back_color"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <include layout="@layout/botton"/>"
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="news_title_color">#4c4c4c</color>
+    <color name="transparent">#00000000</color>
+</resources>

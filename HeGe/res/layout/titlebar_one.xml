@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        style="@style/TitleBar" xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView 
+            android:paddingLeft="8dp"
+            android:paddingRight="15dp"
+            android:id="@+id/icon_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_button"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_text_size"
+            android:layout_centerInParent="true"
+            android:text="" />
+    </RelativeLayout>

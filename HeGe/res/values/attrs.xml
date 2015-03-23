@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color" format="color"></attr>
+    <attr name="text" format="string"></attr>
+    
+    <declare-styleable name="CircularView">
+        <attr name="color"/>
+        <attr name="text" />
+    </declare-styleable>
+</resources>

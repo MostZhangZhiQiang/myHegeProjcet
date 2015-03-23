@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" 
+    android:layout_gravity="bottom">
+    
+    <Button 
+        android:id="@+id/go_home"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_back_color"
+        android:textColor="#919191"
+        android:textSize="18sp"
+        android:text="Home"/>
+    <Button 
+        android:id="@+id/go_products"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_back_color"
+        android:textColor="#919191"
+        android:textSize="18sp"
+        android:text="Products"/>
+
+</LinearLayout>
